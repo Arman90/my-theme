@@ -1,0 +1,328 @@
+/* Them name: my theme  
+	version : 1.00
+	Created on : 5-3-2019
+	*/ 
+
+/* 
+ Misc 
+ */ 
+
+ body {
+ 	font-family: Montserrat !important;
+ }
+
+
+.unipad {
+	padding: 60px 0px;
+}
+
+.unitext {
+	font-size: 1.5rem;
+}
+
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+
+
+
+
+
+
+
+ /*-----------------------end misc---------------- */ 
+
+/* 
+
+/* Home style */
+
+#home {
+	height: 500px;
+	background-image: url('../images/background.jpg');
+	background-position: center;
+	background-size: cover; 
+  color: white;
+  position: relative;
+} 
+
+@media only screen and (max-width: 500px) {
+  #home {
+    height: 90vh;
+  } 
+
+  .middle-box h1 {
+    font-size: 3rem !important;
+    line-height: 4rem !important; 
+
+  }  
+
+  .middle-box h3 {
+    font-size: 2rem !important; 
+    line-height: 3rem !important;
+  }
+  
+}
+
+.middle-box {
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+  
+  background-color: rgba(0,0,0, 0.3); 
+  border-radius: 10px; 
+  padding: 15px;
+}
+
+.middle-box h1 {
+	font-family: Montserrat;
+	font-size: 7rem; 
+	color: white;
+  line-height: 8rem;
+} 
+
+.middle-box h3 {
+  line-height: 4rem;
+}
+
+/* About design */ 
+
+#about {
+	background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+
+/* end of about design ======================== */ 
+/* skill design */ 
+
+#skill {
+	background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+} 
+
+.skill-bar-container {
+  width: 100%; 
+  background-color: #ddd; 
+  border-radius: 4px;
+  background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+
+
+
+} 
+
+.skills {
+  padding: 10px; 
+  text-align: right;
+  border-radius: 4px 0px 0px 4px;
+} 
+
+.html {
+  width: 95%; 
+  background: white;
+  background-color: #21D4FD;
+background-image: linear-gradient(315deg, #21D4FD 0%, #B721FF 100%);
+
+} 
+
+.css {
+  width: 80%;
+  background: white;
+  background-color: #21D4FD;
+background-image: linear-gradient(315deg, #21D4FD 0%, #B721FF 100%);
+
+}
+ 
+
+ .javascript {
+  width: 80%;
+  background: white;
+  background-color: #21D4FD;
+background-image: linear-gradient(315deg, #21D4FD 0%, #B721FF 100%);
+
+ } 
+
+ .php {
+  width: 75%;
+  background: white;
+  background-color: #21D4FD;
+background-image: linear-gradient(315deg, #21D4FD 0%, #B721FF 100%);
+
+ }
+/* end of skill design */ 
+
+/* service section */ 
+
+#service {
+	background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.service-box {
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-holder {
+	font-size: 5vw;
+}
+
+
+/** stattistics */ 
+
+
+
+
+
+#statics {
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+} 
+
+
+#feedback {
+  background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** end of statistics */
+
+
+
+
+
+
+
+
+
+
+/* ============================end service----------------------*/ 
+ /** particularly for blog card design */ 
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
+  position: relative; 
+  margin: 15px 0px;
+ 
+}
+
+.card:hover img {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+  
+}  
+.card img {
+	width: 100%; 
+	height: auto;
+	overflow: hidden;
+	transform: scale(1,1); 
+	transition: all 0.5s;
+}
+
+.container-card {
+	padding: 20px;
+} 
+
+.card .date {
+	width: 100px; 
+	height: auto; 
+	background: black; 
+	padding: 10px; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /*                 end            */  
+
+
+ /* ================================ styling the feedback section */ 
+
+   .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  } 
+
+  .photo-container {
+  	width: 20vh; 
+  	text-align: center; 
+  	margin: auto;
+  }
+
+
+  /* footer style */ 
+
+  #footer {
+      height: 100px;
+      
+ background-color: #f2f2f2;
+
+
+  } 
+
+  #contact p {
+  	font-size: 2.5rem; 
+
+  }
+  /* styling map */ 
+
+  iframe {
+  	width: 100%; 
+  	height: 20vw;
+  } 
+
+
+  /* contact design */ 
+
+  #contact {
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+  }
